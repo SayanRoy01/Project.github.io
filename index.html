@@ -1,0 +1,152 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Load Calculator</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <main>
+        <div class="container">
+            <table align="center" class="content-table">
+                <caption align="top" class="cap"><b>Automated Load Calculator</caption>
+                <!-- <h3 align="center">Automated Load Calculator  -->
+                <thead>
+                    <tr>
+                        <th class="head">Appliances </th>
+                        <th class="head">Power Rating (Watts) </th>
+                        <th class="head">Number of Appliances </th>
+                        <th class="head">Daily Use in Hours </th>
+                        <th class="head">Total Load in hours </th>
+                        <th class="head">Total Unit</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="appl">LED bulb</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total1" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">CFL</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total2" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Tube Light</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total3" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">LED Tube Light</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total4" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Celling fan</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total5" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Table Fan</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total6" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">AC</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total7" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Cooler</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total8" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+
+                        <td class="appl">TV</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total9" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Refrigeretor</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total10" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Washing Machine</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total11" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Gyser</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total12" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Computer</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total13" name="Total_Unit" class="cen"></td>
+                    </tr>
+                    <tr>
+                        <td class="appl">Mobile Charger</td>
+                        <td><input name="Power_Rating_(Watts)" type="number" class="new"></td>
+                        <td><input name="Number_of_Appliances" type="number" class="new"></td>
+                        <td><input name="Daily_Use_in_Hours" type="number" class="new"></td>
+                        <td><input name="Total_Load_in_hours" type="number" class="new"></td>
+                        <td id="total14" name="Total_Unit" class="cen"></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5"></td>
+                        <td id="sumofall" class="cent"></td>
+                    </tr>
+                </tfoot>
+            </table>
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
